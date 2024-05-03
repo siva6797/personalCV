@@ -1,0 +1,36 @@
+---
+title: STUB
+summary: 'STUB is a mock service, where we can configure the responses and error messages.'
+
+tags:
+  - Research
+date: '2020-02-10T00:00:00Z'
+
+# Optional external URL for project (replaces project detail page).
+external_link: ''
+
+image:
+  caption: Photo by Author
+  focal_point: Smart
+
+links:
+  - icon: twitter
+    icon_pack: fab
+    name: Follow
+    url: https://twitter.com/KNSVSivaShankar
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+# slides: example
+---
+
+STUB is a mock service, where we can configure the responses and error messages within the stub. 
+
+So **EduArte** and the **Magister** test automation teams can configure their expected responses inside the stub and start the automation testing.

@@ -92,10 +92,14 @@ At 11:20 AM, The train pulled into Ujjain, and stepping onto the platform, I was
 As I stepped into the temple complex, I was immediately struck by its majestic architecture and profound spiritual ambiance. The temple, one of the twelve Jyotirlingas, holds immense significance in Hindu mythology, believed to be the divine abode of Lord Shiva in his Mahakal form.
 {style="text-align: justify;"}
 
+![Mahakaleshwar temple with chaithanya family](./images/m2.jpg "Mahakaleshwar temple with chaithanya family")
+
 > Personal Experience:
 
 Standing before the sacred Lingam of Lord Shiva, we felt a wave of reverence wash over me. The ancient energy of the temple enveloped me, transporting me to a realm where time seemed to stand still. Offering my prayers with utmost devotion, we felt a deep sense of connection with the divine, as if Lord Shiva himself was bestowing his blessings upon me.
 {style="text-align: justify;"}
+
+![Mahakaleshwar temple](./images/m1.jpg "Mahakaleshwar temple")
 
 #### Local Famous Temples and Ashrams:
 After completing my darshan at the Mahakaleshwar Temple, we embarked on a journey to explore the other renowned temples and ashrams that dot the spiritual landscape of Ujjain. Each site held its own unique history and significance, offering a glimpse into the rich tapestry of Hindu mythology and tradition.
@@ -107,11 +111,17 @@ After completing my darshan at the Mahakaleshwar Temple, we embarked on a journe
 05:00 PM: As the sun began to set, we made our way to Ram Ghat, a sacred bathing ghat on the banks of the Shipra River. Here, amidst the serene surroundings, we immersed ourselves in the spiritual energy of the place, offering prayers to the setting sun.
 {style="text-align: justify;"}
 
+![nine lingas](./images/m3.jpg "nine lingas as nava grahs")
+
 06:30 PM: Our next stop was the Kal Bhairav Temple, dedicated to the fearsome form of Lord Shiva known as Bhairav. The temple is believed to be a protector of the city and is adorned with colorful flags and banners, adding to its mystical allure.
 {style="text-align: justify;"}
 
+![Kal Bhairav Temple](./images/m4.jpg "Kal Bhairav Temple")
+
 And then we travelled to Harsiddhi Matha Temple, dedicated to the goddess Harsiddhi, to the Gadkalika Mata Temple, believed to be the site where Goddess Kalika's upper lip fell during the battle with demons, every temple resonated with divine energy and spiritual vibrancy.
 {style="text-align: justify;"}
+
+![Harsiddhi Matha Temple](./images/m6.jpg "Harsiddhi Matha Temple")
 
 08:00 PM: By nightfall, we found ourselves at Sandeepani Ashram, a revered pilgrimage site associated with the sage Sandeepani, who is believed to have taught Lord Krishna and Sudama here. The ashram is a serene oasis of tranquility, surrounded by lush greenery and echoing with the chants of devotees.
 {style="text-align: justify;"}
@@ -122,6 +132,8 @@ And then we travelled to Harsiddhi Matha Temple, dedicated to the goddess Harsid
 10:00 PM: Eager to experience the magic of the Ujjain Mahakaleshwar temple at night, we ventured out once again, arriving just in time for the evening Harathi. The temple corridor closed at 10:00 PM, but through a stroke of luck, we were granted entry for a free Darshan at 10:20 PM, allowing us to bask in the celestial glow of the temple's sanctity.
 {style="text-align: justify;"}
 
+![Ujjain Mahakaleshwar temple corridor](./images/m7.jpg "Ujjain Mahakaleshwar temple corridor")
+
 11:30 PM: With the echoes of the Harathi still ringing in our ears, we bid farewell to the temple, our hearts overflowing with gratitude for the spiritual experiences of the day. Returning to our hotel, we retired for the night, the events of the day swirling in our minds as we drifted off to sleep, marking the end of an eventful day in Ujjain.
 {style="text-align: justify;"}
 
@@ -129,6 +141,8 @@ And then we travelled to Harsiddhi Matha Temple, dedicated to the goddess Harsid
 
 At each temple and ashram, we felt a profound sense of peace and serenity wash over me. It was as if the sacred sites themselves were imbued with the blessings of the divine, offering solace and guidance to all who sought it. As we immersed myself in the rituals and prayers, we felt a deep sense of gratitude for the opportunity to connect with the ancient wisdom and spirituality of Ujjain.
 {style="text-align: justify;"}
+
+![Ujjain Mahakaleshwar temple corridor](./images/m8.jpg "Ujjain Mahakaleshwar temple corridor")
 
 #### Exploring the Local Cuisine and Culture:
 As the day drew to a close, we took the time to indulge in the local cuisine and immerse myself in the vibrant culture of Ujjain. From savoring the delectable flavors of traditional dishes to witnessing the colorful rituals and festivities that enlivened the streets, every moment was a celebration of life and spirituality.
@@ -138,6 +152,7 @@ As the day drew to a close, we took the time to indulge in the local cuisine and
 
 As we savored the flavors of Ujjaini cuisine and soaked in the sights and sounds of the bustling city, we couldn't help but marvel at the richness and diversity of Indian culture. It was a reminder that spirituality is not confined to temples and rituals but is woven into the very fabric of daily life, enriching every moment with its sacred essence.
 {style="text-align: justify;"}
+
 
 > Conclusion:
 
@@ -166,6 +181,8 @@ As we made my way through the temple corridors, We couldn't help but marvel at t
 
 Standing before the sacred Lingam of Lord Shiva, We felt a sense of awe and reverence unlike anything we had ever experienced before. It was as if the divine presence of Lord Shiva enveloped me in a warm embrace, filling my heart with peace and tranquility.
 {style="text-align: justify;"}
+
+![Omkareshwar Jyotirlinga Temple](./images/o1.jpg "Omkareshwar Jyotirlinga Temple")
 
 #### Narmada River and Kotitirth Ghat:
 After completing my darshan at the Omkareshwar Jyotirlinga Temple, we made my way to the banks of the Narmada River, where the ethereal beauty of the flowing waters captivated my soul. Crossing the river on the iconic Omkareshwar Jhula bridge, we felt a sense of serenity wash over me as we immersed myself in the divine energy of the sacred waters.
@@ -209,6 +226,8 @@ As the first light of dawn painted the sky with hues of orange and pink, I bid f
 Arriving at **Ahmedabad Junction** at 9:00 PM, I felt a sense of excitement tinged with reverence as I prepared to venture onward to the ancient town of Somanath. The tales of this legendary place, steeped in history and mythology, had captured my imagination long before this moment.
 {style="text-align: justify;"}
 
+![Ahmedabad Junction](./images/o2.jpg "Ahmedabad Junction")
+
 #### Somanath Jyotirlinga Temple:
 Stepping off the train at **Veraval railway station at 7:30 AM,** the gateway to Somanath, I embarked on a solitary journey to the magnificent Somanath Jyotirlinga temple. This sacred site, one of the twelve divine manifestations of Lord Shiva, stood as a beacon of faith and devotion for centuries.
 {style="text-align: justify;"}
@@ -221,6 +240,8 @@ As I made my way through the temple corridors, I felt a profound sense of revere
 
 Standing before the sacred Lingam of Lord Shiva at 9:00 PM, I offered my prayers and devotion in solitude, feeling a deep sense of peace and connection with the divine. It was a moment of pure communion, as if the barriers between heaven and earth had momentarily dissolved, leaving only the presence of the divine.
 {style="text-align: justify;"}
+
+![Somanath Jyotirlinga Temple](./images/s1.jpg "Somanath Jyotirlinga Temple")
 
 > Personal Experience:
 
@@ -253,6 +274,7 @@ After completing my darshan at the Somnath Temple, I embarked on a journey to th
 Upon arriving in Dwarka, my first stop was the revered Dwarkadhish Temple, dedicated to Lord Krishna. Stepping into its sacred precincts, I was immediately struck by the temple's magnificent architecture and serene ambiance. The air was filled with the melodious chants of devotees, creating a sense of divine tranquility.
 {style="text-align: justify;"}
 
+
 > Personal Experience:
 
 In the presence of Lord Krishna, I felt a deep sense of peace and contentment wash over me. The worries and cares of the world seemed to fade away, replaced by a profound sense of connection with the divine. Immersed in the sacred atmosphere of the temple, I offered my prayers with a heart full of devotion, grateful for the opportunity to seek solace in the presence of the Lord.
@@ -272,6 +294,9 @@ As the first light of dawn illuminated the ancient city of Dwarka, I embarked on
 My day began with a visit to the revered Dwarkadhish Temple, dedicated to Lord Krishna. Stepping into its sacred precincts once again, I was struck by the temple's timeless beauty and spiritual ambiance. The air was filled with the scent of incense, creating a sense of divine tranquility.
 {style="text-align: justify;"}
 
+
+![Dwarkadhish Temple](./images/d1.jpg "Dwarkadhish Temple")
+
 > Personal Experience:
 
 In the presence of Lord Krishna, I felt a profound sense of peace wash over me. The worries and cares of the world seemed to fade away, replaced by a deep sense of connection with the divine. Immersed in the sacred atmosphere of the temple, I offered my prayers with a heart full of devotion, grateful for the opportunity to seek solace in the presence of the Lord.
@@ -280,6 +305,8 @@ In the presence of Lord Krishna, I felt a profound sense of peace wash over me. 
 #### Nageshwar Jyotirlinga Temple:
 After seeking the blessings of Lord Krishna at the Dwarkadhish Temple, I made my way to the ancient Nageshwar Jyotirlinga Temple, nestled amidst the serene beauty of Dwarka. Legend has it that this sacred site is home to one of the twelve Jyotirlingas, revered as manifestations of Lord Shiva.
 {style="text-align: justify;"}
+
+![Nageshwar Jyotirlinga Temple](./images/n1.jpg "Nageshwar Jyotirlinga Temple")
 
 > Personal Experience:
 

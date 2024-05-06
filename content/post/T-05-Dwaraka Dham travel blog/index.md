@@ -306,7 +306,7 @@ In the presence of Lord Krishna, I felt a profound sense of peace wash over me. 
 After seeking the blessings of Lord Krishna at the Dwarkadhish Temple, I made my way to the ancient Nageshwar Jyotirlinga Temple, nestled amidst the serene beauty of Dwarka. Legend has it that this sacred site is home to one of the twelve Jyotirlingas, revered as manifestations of Lord Shiva.
 {style="text-align: justify;"}
 
-![Nageshwar Jyotirlinga Temple](./images/n1.jpg "Nageshwar Jyotirlinga Temple")
+
 
 > Personal Experience:
 
@@ -326,6 +326,8 @@ With the dawn of a new day, I prepared to bid farewell to the sacred land of Dwa
 #### Nageshwar Jyotirlinga Temple:
 At the break of dawn, I made my way once again to the Nageshwar Jyotirlinga Temple, eager to offer my prayers to Lord Shiva. Standing before the sacred Lingam, I felt a sense of peace wash over me as I immersed myself in the divine presence of the Lord.
 {style="text-align: justify;"}
+
+![Nageshwar Jyotirlinga Temple](./images/n1.jpg "Nageshwar Jyotirlinga Temple")
 
 > Personal Experience:
 

@@ -1,5 +1,5 @@
 ---
-title: 'Exploring Nikto: Unveiling the Webs Vulnerabilities'
+title: "Exploring Nikto: Unveiling the Web's Vulnerabilities"
 subtitle: 'A Comprehensive Guide to Nikto in Kali Linux'
 
 # Summary for listings and search engines

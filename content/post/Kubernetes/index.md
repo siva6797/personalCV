@@ -53,6 +53,8 @@ In this blog, we embark on a journey through the intricate world of Kubernetes, 
 Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform originally developed by **Google**. It automates the deployment, scaling, and management of containerized applications, abstracting away the underlying infrastructure complexities. At its core, Kubernetes follows a declarative approach, where users specify the desired state of their applications, and Kubernetes ensures that the actual state matches the desired state.
 {style="text-align: justify;"}
 
+![Kubernetes](./images/k.png "Kubernetes")
+
 ### Difference between Kubernetes and Docker?
 
 Kubernetes and Docker are often mentioned together as they both play significant roles in the containerization ecosystem, but they serve different purposes and operate at different levels of the application stack. 
@@ -83,6 +85,9 @@ Here's a breakdown of the key differences between Kubernetes and Docker:
 ### Download, Install, and Run Kubernetes locally
 
 To download, install, and run Kubernetes locally, you can use Minikube, which is a tool that enables you to set up a single-node Kubernetes cluster on your local machine. 
+
+![minicube](./images/minicube.jpg "minicube")
+
 Follow these steps:
 
 1) **Download and Install Minikube:**
@@ -101,6 +106,8 @@ Follow these steps:
 ```sql
 minikube start
 ```
+
+![minicube](./images/minicubearch.jpg "minicube architecture")
 
 4) **Verify Installation:**
 - After Minikube starts successfully, you can verify the status of your Kubernetes cluster by running:
@@ -215,7 +222,9 @@ In the realm of Kubernetes, several advanced concepts elevate the platform's cap
 
 - **Pod Disruption Budgets** (PDBs) define policies that specify the minimum number of pods of a replicated application that must remain available at any given time during voluntary disruptions, such as maintenance or scaling events. PDBs ensure application availability and resilience by preventing excessive disruptions and ensuring that applications maintain a desired level of stability and performance.
 
-- **Horizontal Pod Autoscaling** (HPA) dynamically adjusts the number of replica pods in a deployment or replica set based on observed CPU utilization or custom metrics. HPA enables automatic scaling of applications in response to changes in demand, ensuring optimal resource utilization and responsiveness to varying workloads. **Vertical Pod Autoscaling** (VPA), on the other hand, adjusts the resource requests and limits of individual pods based on resource usage metrics, optimizing resource allocation and improving application performance and efficiency.
+- **Horizontal Pod Autoscaling** (HPA) dynamically adjusts the number of replica pods in a deployment or replica set based on observed CPU utilization or custom metrics. HPA enables automatic scaling of applications in response to changes in demand, ensuring optimal resource utilization and responsiveness to varying workloads. 
+
+- **Vertical Pod Autoscaling** (VPA), on the other hand, adjusts the resource requests and limits of individual pods based on resource usage metrics, optimizing resource allocation and improving application performance and efficiency.
 
 - **Network Policies** provide fine-grained control over network traffic within Kubernetes clusters, allowing administrators to define rules that govern how pods communicate with each other and with external endpoints. Network Policies enhance security and isolation within clusters, ensuring that only authorized communication flows are permitted, thus reducing the attack surface and minimizing the risk of unauthorized access or data exfiltration.
 
@@ -513,18 +522,27 @@ By following these best practices and advanced techniques, organizations can des
 ### Advanced Techniques for Monitoring, Logging, and Observability in Kubernetes Clusters:
 
 1) **Prometheus:**
+
+![Prometheus](./images/prometheus.jpg "Prometheus")
+
 - **Functionality:** Prometheus is a popular open-source monitoring and alerting toolkit designed for collecting, storing, and querying metrics data from Kubernetes clusters.
 - **Features:** Prometheus integrates seamlessly with Kubernetes, leveraging Kubernetes' service discovery mechanism to dynamically discover and monitor services and applications.
 - **Benefits:** Prometheus provides a rich set of metrics exporters and instrumentation libraries for capturing metrics from various Kubernetes components, including nodes, pods, containers, and services.
 - **Use Cases:** Organizations use Prometheus to monitor cluster performance, resource utilization, application health, and service-level objectives (SLOs), enabling proactive alerting and troubleshooting.
 
 2) **Grafana:**
+
+![Grafana](./images/Grafana.jpg "Grafana")
+
 - **Functionality:** Grafana is an open-source visualization and analytics platform used for creating dashboards and visualizing metrics data collected by Prometheus and other monitoring systems.
 - **Features:** Grafana integrates with Prometheus to query and visualize metrics data in real-time, enabling users to create customizable dashboards, graphs, and alerts.
 - **Benefits:** Grafana provides a rich set of visualization options, including graphs, heatmaps, and tables, allowing users to gain insights into cluster performance, trends, and anomalies.
 - **Use Cases:** Organizations use Grafana to create custom dashboards for monitoring Kubernetes clusters, applications, and services, facilitating real-time monitoring and analysis of key metrics and performance indicators.
 
 3) **Elasticsearch:**
+
+![Elasticsearch](./images/elastic.jpg "Elasticsearch")
+
 - **Functionality:** Elasticsearch is a distributed, RESTful search and analytics engine used for storing, indexing, and searching log data collected from Kubernetes clusters.
 - **Features:** Elasticsearch integrates with Fluentd or other log shippers to ingest and index log data, providing fast search and analytics capabilities for exploring and analyzing log events.
 - **Benefits:** Elasticsearch offers powerful full-text search, aggregations, and visualization capabilities, enabling users to gain insights into log data, detect patterns, and troubleshoot issues effectively.

@@ -68,25 +68,30 @@ Here's a breakdown of the key differences between Kubernetes and Docker:
 | Functionality    |  Kubernetes extends beyond container runtime management to provide container orchestration capabilities. It handles tasks such as service discovery, load balancing, health monitoring, auto-scaling, and rolling updates, making it suitable for managing production-grade containerized applications at scale.   | Docker primarily provides tools for container lifecycle management, including building, distributing, and running containers. It offers features like container isolation, image creation, networking, and storage. |
 | Abstraction Level |  Kubernetes operates at the cluster level, abstracting away the underlying infrastructure and providing a unified API for managing containers across multiple hosts.   | Docker operates at the container level, focusing on individual containers and their management on a single host machine. |
 | Usage Scenarios |  Kubernetes is suitable for organizations and teams running containerized applications in production environments, especially when managing complex, distributed systems across multiple hosts.   | Docker is suitable for developers and teams looking to containerize their applications for development and testing purposes or deploying applications on a single host or development environment. |
+{style="text-align: justify;"}
 
 ### Key Concepts of Kubernetes:
 
 1) **Pods:** Pods are the smallest deployable units in Kubernetes, encapsulating one or more containers with shared resources such as storage and network. Containers within the same pod share the same IP address and port space, facilitating communication.
+{style="text-align: justify;"}
 
 2) **Deployments:** Deployments in Kubernetes manage the lifecycle of pods and replica sets. They enable declarative updates to applications, ensuring that a specified number of replicas are running at all times. Deployments provide features like rolling updates and rollbacks, enhancing application reliability.
+{style="text-align: justify;"}
 
 3) **Services:** Services abstract away the access to pods, providing a stable endpoint for communication. They enable load balancing across pod replicas and ensure that applications remain discoverable within the Kubernetes cluster.
+{style="text-align: justify;"}
 
 4) **ConfigMaps and Secrets:** ConfigMaps store configuration data in key-value pairs, which can be consumed by pods as environment variables or mounted volumes. Secrets, on the other hand, are used to store sensitive information such as passwords or API keys securely.
+{style="text-align: justify;"}
 
 5) **Ingress:** Ingress is an API object that manages external access to services within a Kubernetes cluster. It provides HTTP and HTTPS routing, allowing users to define rules for accessing services based on hostnames, paths, etc.
-
+{style="text-align: justify;"}
 
 ### Download, Install, and Run Kubernetes locally
 
 To download, install, and run Kubernetes locally, you can use Minikube, which is a tool that enables you to set up a single-node Kubernetes cluster on your local machine. 
 
-![minicube](./images/minicube.jpg "minicube")
+![minicube](./images/m.png "minicube")
 
 Follow these steps:
 
@@ -107,7 +112,7 @@ Follow these steps:
 minikube start
 ```
 
-![minicube](./images/minicubearch.jpg "minicube architecture")
+![kubernetes workflow](./images/kubernetesworkflow.gif "Kubernetes workflow architecture")
 
 4) **Verify Installation:**
 - After Minikube starts successfully, you can verify the status of your Kubernetes cluster by running:
@@ -152,11 +157,11 @@ Here's a general approach using KinD:
 
 1) **Install Docker:**
 
-Ensure Docker is installed on your system. You can download and install Docker Desktop from the official Docker website based on your operating system.
+Ensure Docker is installed on your system. You can download and install Docker Desktop from the official [Docker website](https://www.docker.com/products/docker-desktop/) based on your operating system.
 
 2) **Install kubectl:**
 
-Download and install kubectl, the Kubernetes command-line tool, which you'll use to interact with the Kubernetes cluster.
+Download and install [kubectl](https://kubernetes.io/docs/tasks/tools/), the Kubernetes command-line tool, which you'll use to interact with the Kubernetes cluster.
 
 3) **Install KinD:**
 
@@ -168,7 +173,7 @@ chmod +x ./kind
 mv ./kind /usr/local/bin/kind
 ```
 
-Check the KinD releases page for the latest version and update the URL accordingly.
+Check the [KinD releases page](https://github.com/kubernetes-sigs/kind/releases) for the latest version and update the URL accordingly.
 
 4) **Create a KinD Cluster:**
 
@@ -224,6 +229,8 @@ In the realm of Kubernetes, several advanced concepts elevate the platform's cap
 
 - **Horizontal Pod Autoscaling** (HPA) dynamically adjusts the number of replica pods in a deployment or replica set based on observed CPU utilization or custom metrics. HPA enables automatic scaling of applications in response to changes in demand, ensuring optimal resource utilization and responsiveness to varying workloads. 
 
+![Horizontal and Vertical Pod Autoscaling](./images/scaling.gif "Horizontal and Vertical Pod Autoscaling")
+
 - **Vertical Pod Autoscaling** (VPA), on the other hand, adjusts the resource requests and limits of individual pods based on resource usage metrics, optimizing resource allocation and improving application performance and efficiency.
 
 - **Network Policies** provide fine-grained control over network traffic within Kubernetes clusters, allowing administrators to define rules that govern how pods communicate with each other and with external endpoints. Network Policies enhance security and isolation within clusters, ensuring that only authorized communication flows are permitted, thus reducing the attack surface and minimizing the risk of unauthorized access or data exfiltration.
@@ -237,6 +244,8 @@ Kubernetes is a complex system composed of several components, each serving a sp
 
 1) **Master Components:**
 
+![Master Components](./images/master.gif "Master Components")
+
 - **kube-apiserver:** Exposes the Kubernetes API, which serves as the primary interface for managing the cluster. It handles API requests, authentication, authorization, and validation.
 
 - **etcd:** A distributed key-value store used to store cluster state and configuration data. It serves as the cluster's source of truth and ensures consistency and high availability.
@@ -248,6 +257,8 @@ Kubernetes is a complex system composed of several components, each serving a sp
 - **cloud-controller-manager:** Interacts with the cloud provider's API to manage resources such as virtual machines, load balancers, and storage volumes in cloud-based Kubernetes deployments.
 
 2) **Node Components:**
+
+![Node Components](./images/node.gif "Node Components")
 
 - **kubelet:** An agent that runs on each node and is responsible for managing pods and containers. It communicates with the kube-apiserver to receive instructions for pod deployment, monitoring, and health checks.
 
@@ -494,16 +505,25 @@ By following these best practices and advanced techniques, organizations can des
 ### Advanced Deployment Strategies with Kubernetes and Service Mesh:
 
 1) **Canary Deployments:**
+
+![Canary Deployments](./images/Canary.gif "Canary Deployments")
+
 - **Strategy:** Canary deployments involve gradually rolling out new versions of an application to a small subset of users or traffic segments while monitoring for errors or performance issues.
 - **Implementation:** Kubernetes supports canary deployments through techniques like traffic splitting using service mesh tools such as Istio, Linkerd, or Flagger.
 - **Benefits:** Canary deployments allow teams to validate new features or changes in a real-world environment with minimal risk, enabling rapid iteration and feedback cycles.
 
 2) **Blue-Green Deployments:**
+
+![Blue-Green Deployments](./images/bluegreen.gif "Blue-Green Deployments")
+
 - **Strategy:** Blue-Green deployments involve maintaining two identical production environments (blue and green) and gradually shifting traffic from one environment to the other during updates.
 - **Implementation:** With Kubernetes, blue-green deployments can be achieved by updating the service endpoint to point to the new version of the application in the green environment once testing is complete.
 - **Benefits:** Blue-green deployments minimize downtime and rollback complexity by enabling instant switchovers between environments, ensuring seamless updates and rollback capabilities.
 
 3) **A/B Testing:**
+
+![A/B Deployments](./images/abdeploymnet.gif "A/B Deployments")
+
 - **Strategy:** A/B testing involves deploying multiple versions of an application simultaneously and routing a portion of traffic to each version to compare performance or user experience.
 - **Implementation:** Service mesh tools like Istio or Linkerd provide traffic routing capabilities that enable A/B testing by splitting traffic based on predefined rules or percentages.
 - **Benefits:** A/B testing allows teams to make data-driven decisions about feature releases or changes by gathering insights into user behavior, preferences, and performance metrics.

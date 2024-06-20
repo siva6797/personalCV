@@ -9,10 +9,10 @@ summary: 'Harness the Power of SQLmap, Learn from Recent High-Profile SQL Inject
 projects: []
 
 # Date published
-date: '2024-06-21T00:00:00Z'
+date: '2024-01-07T00:00:00Z'
 
 # Date updated
-lastmod: '2024-06-21T00:00:00Z'
+lastmod: '2024-01-09T00:00:00Z'
 
 # Is this an unpublished draft?
 draft: false

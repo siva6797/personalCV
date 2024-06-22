@@ -1,9 +1,9 @@
 ---
 title: "Advanced Guide to Using Dirbuster on Kali Linux"
-subtitle: 'Dirbuster is a powerful tool in Kali Linux for brute-forcing hidden directories and files on web servers, aiding in vulnerability discovery. This guide covers its installation, essential commands, real-world applications, and cybersecurity precautions. Proper use of Dirbuster can significantly enhance security assessments, but ethical considerations are paramount.'
+subtitle: 'Unearthing Hidden Vulnerabilities: An Advanced Guide to Dirbuster on Kali Linux'
 
 # Summary for listings and search engines
-summary: 'Unearthing Hidden Vulnerabilities: An Advanced Guide to Dirbuster on Kali Linux'
+summary: 'Dirbuster is a powerful tool in Kali Linux for brute-forcing hidden directories and files on web servers, aiding in vulnerability discovery. This guide covers its installation, essential commands, real-world applications, and cybersecurity precautions. Proper use of Dirbuster can significantly enhance security assessments, but ethical considerations are paramount.'
 
 # Link this post with a project
 projects: []

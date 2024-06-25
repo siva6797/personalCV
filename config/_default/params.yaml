@@ -15,15 +15,15 @@ appearance:
 
 marketing:
   seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    site_type: PersonalBlog
+    local_business_type: 'Personal branding on Cyber Security Awareness'
+    org_name: 'SecureWithSiva'
+    description: 'A personal baranding site which creates awareness in Cyber Security'
+    twitter: 'KNSVSivaShankar'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-GCCWH7205V'
     baidu_tongji: ''
-    google_tag_manager: ''
+    google_tag_manager: 'GT-55VS33C8'
     microsoft_clarity: ''
   verification:
     google: ''
@@ -77,9 +77,9 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: 'disqus'
     disqus:
-      shortname: ''
+      shortname: 'securewithsiva'
       show_count: true
     commento:
       url: ''

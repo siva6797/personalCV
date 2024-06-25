@@ -291,7 +291,7 @@ Integrating OWASP ZAP into your Continuous Integration/Continuous Deployment (CI
 - Ensure ZAP is installed on the Jenkins server or a remote agent.
 
 2. **Install ZAP Plugin:**
-- Go to Jenkins dashboard -> Manage Jenkins -> Manage Plugins -> Available.
+- Go to Jenkins `dashboard` -> `Manage Jenkins` -> `Manage Plugins` -> `Available`.
 - Search for "OWASP ZAP" and install the plugin.
 
 3. **Configure Jenkins Job:**
@@ -362,9 +362,10 @@ jobs:
           path: owasp-zap-report.html
 ```
 
-**Automation with ZAP CLI and API**
+### Automation with ZAP CLI and API
 
 **ZAP Command-Line Interface (CLI):**
+
 The ZAP CLI tool allows you to automate ZAP tasks via the command line. Below are common commands:
 
 1. **Starting ZAP:**
@@ -388,6 +389,7 @@ zap-cli -p 8090 report -o zap_report.html -f html
 ```
 
 **ZAP API:**
+
 The ZAP API allows for programmatic control of ZAP. Below is an example of using the API with Python.
 
 1. **Install ZAP Python Client:**
@@ -424,7 +426,7 @@ Configuring ZAP for automated reporting and alerts ensures you stay informed abo
 
 1. **Custom Alerts:**
 
-- Define custom alerts in the ZAP UI under Tools -> Options -> Alert Filters.
+- Define custom alerts in the ZAP UI under `Tools` -> `Options` -> `Alert Filters`.
 - Specify conditions for alerts and the severity level.
 
 2. **Automated Reports:**
@@ -437,7 +439,11 @@ Configuring ZAP for automated reporting and alerts ensures you stay informed abo
 - Use scripting or CI/CD pipeline features to send email notifications with the report attached or with critical findings highlighted.
 - For example, in Jenkins, you can use the Email Extension Plugin to send email notifications based on build results.
 
+{{% callout note %}}
+**Note:**
 By integrating OWASP ZAP into your CI/CD pipeline, automating scans and reports, and setting up alerts, you can ensure continuous and comprehensive security testing of your applications, thereby significantly enhancing your security posture.
+{style="text-align: justify;"}
+{{% /callout %}}
 
 ###  Advanced Configuration and Customization
 
@@ -447,7 +453,7 @@ Creating and applying custom scan policies in OWASP ZAP allows you to tailor you
 
 1. **Creating Custom Scan Policies:**
 
-- Open OWASP ZAP and go to Tools -> Options -> Active Scan.
+- Open OWASP ZAP and go to `Tools` -> `Options` -> `Active Scan`.
 - Click on Policies to see the list of scan rules.
 - Select the scan rules you want to include in your custom policy. You can adjust the strength (e.g., Low, Medium, High) and threshold (e.g., Off, Low, Medium, High) of each rule to control how aggressively ZAP tests for that particular vulnerability.
 
@@ -466,7 +472,7 @@ Fine-tuning your scans helps reduce false positives and ensures that the scans f
 
 1. **Excluding Specific URLs:**
 
-- Go to Context -> Include in Context -> Default Context to define the URLs that should be included in the scan.
+- Go to `Context` -> `Include in Context` -> `Default Context` to define the URLs that should be included in the scan.
 - Similarly, use Exclude from Context to exclude specific URLs or file types (e.g., images, CSS files) that are not relevant to security testing.
 
 2. **Adjusting Scan Strength and Threshold:**
@@ -659,7 +665,11 @@ def handle_message(message):
 zap.websocket.set_message_handler(handle_message)
 ```
 
+{{% callout note %}}
+**Note:**
 By applying these practical use cases, you can leverage OWASP ZAP to thoroughly test SPAs, APIs, and WebSocket-based applications, ensuring comprehensive security coverage for your modern web applications.
+{style="text-align: justify;"}
+{{% /callout %}}
 
 ### Troubleshooting and Optimization
 
@@ -692,6 +702,7 @@ Users might encounter several common issues when using OWASP ZAP. Here’s a dis
 - **Solution:** Ensure the WebSocket extension is installed and enabled. Verify that the browser is correctly configured to use ZAP as a proxy. If issues persist, use the WebSocket tab to manually inspect and test messages.
 
 **Performance Optimization**
+
 Optimizing OWASP ZAP for large-scale testing can significantly improve scan performance and efficiency. Here are some tips:
 
 1. **Increase Memory Allocation:**

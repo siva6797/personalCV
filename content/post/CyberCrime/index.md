@@ -23,6 +23,9 @@ featured: false
 # To comment on this page
 commentable: true
 
+# To comment on this page
+commentable: true
+
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:

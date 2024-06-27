@@ -54,8 +54,15 @@ categories:
 
 ### **The CIA Triad: The Cornerstone of Cybersecurity**
 
-As a cybersecurity professional with over six years of experience, I've come to appreciate the fundamental importance of the CIA triad - **Confidentiality**, **Integrity**, and **Availability**. This model has been the guiding principle in my work, shaping the way I approach information security and helping organizations safeguard their most valuable assets.
+As a cybersecurity professional with over six years of experience, I've come to appreciate the fundamental importance of the **CIA triad** - **Confidentiality**, **Integrity**, and **Availability**. This model has been the guiding principle in my work, shaping the way I approach information security and helping organizations safeguard their most valuable assets.
 {style="text-align: justify;"}
+
+```markmap {height="200px"}
+- CIA Triad
+  - Confidentiality
+  - Integrity
+  - Availability
+```
 
 ### **Confidentiality: Protecting Sensitive Data**
 

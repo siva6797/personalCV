@@ -23,9 +23,11 @@ featured: false
 # To comment on this page
 commentable: true
 
-# To comment on this page
-commentable: true
+# Show a link to the next article in the series
+pager: true
 
+# Show recommendations for related content
+show_related: true
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
@@ -40,15 +42,12 @@ authors:
 
 tags:
   - CyberSecurity
-  - InformationSecurity
   - infosec100series
   - BasicsofInformationSecurity
 
 categories:
   - CyberSecurity
-  - InformationSecurity
   - infosec100series
-  - BasicsofInformationSecurity
 ---
 
 
@@ -96,6 +95,9 @@ The CIA triad is not just a theoretical concept; it's a practical framework that
 By striking the right balance between confidentiality, integrity, and availability, I've helped organizations navigate the complex and ever-evolving landscape of cybersecurity. It's a framework that has stood the test of time, and I'm confident that it will continue to be the cornerstone of effective information security for years to come.
 {style="text-align: justify;"}
 
+**Stay safe and secure!**
+
+Feel free to reach out if you have any questions or need further assistance in strengthening your information security posture. Together, we can build a safer digital world.
 
 {{% callout note %}}
 **Note:**

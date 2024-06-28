@@ -23,9 +23,11 @@ featured: false
 # To comment on this page
 commentable: true
 
-# To comment on this page
-commentable: true
+# Show a link to the next article in the series
+pager: true
 
+# Show recommendations for related content
+show_related: true
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
@@ -47,7 +49,6 @@ tags:
 categories:
   - CyberSecurity
   - infosec100series
-  - BasicsofInformationSecurity
 ---
 
 ### Common Threats in Information Security: Insights from a Cyber Security Professional

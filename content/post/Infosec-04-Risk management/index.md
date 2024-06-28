@@ -23,9 +23,11 @@ featured: false
 # To comment on this page
 commentable: true
 
-# To comment on this page
-commentable: true
+# Show a link to the next article in the series
+pager: true
 
+# Show recommendations for related content
+show_related: true
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
@@ -46,9 +48,7 @@ tags:
 
 categories:
   - CyberSecurity
-  - InformationSecurity
   - infosec100series
-  - BasicsofInformationSecurity
 ---
 
 ### Introduction
@@ -121,6 +121,10 @@ Based on my experience, here are some best practices to enhance your risk manage
 
 Risk management is a cornerstone of information security. By systematically identifying, assessing, and mitigating risks, organizations can protect their information assets and maintain trust with stakeholders. In my six years in cybersecurity, I’ve learned that a proactive and adaptive approach to risk management is essential for staying ahead of threats in this dynamic field.
 {style="text-align: justify;"}
+
+**Stay safe and secure!**
+
+Feel free to reach out if you have any questions or need further assistance in strengthening your information security posture. Together, we can build a safer digital world.
 
 {{% callout note %}}
 **Note:**

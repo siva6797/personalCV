@@ -18,7 +18,7 @@ lastmod: '2024-03-23T00:00:00Z'
 draft: false
 
 # Show this page in the Featured widget?
-featured: false
+featured: true
 
 # To comment on this page
 commentable: true

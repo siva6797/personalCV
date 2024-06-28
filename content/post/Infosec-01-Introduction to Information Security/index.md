@@ -23,9 +23,11 @@ featured: false
 # To comment on this page
 commentable: true
 
-# To comment on this page
-commentable: true
+# Show a link to the next article in the series
+pager: true
 
+# Show recommendations for related content
+show_related: true
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
@@ -46,9 +48,7 @@ tags:
 
 categories:
   - CyberSecurity
-  - InformationSecurity
   - infosec100series
-  - BasicsofInformationSecurity
 ---
 
 
@@ -94,6 +94,9 @@ In today's digital age, information is one of the most valuable assets for indiv
 **Information security** is a critical aspect of modern life and business. By understanding the fundamentals of information security and implementing best practices, individuals and organizations can significantly reduce the risk of cyber threats and protect their valuable assets. As technology continues to evolve, staying informed and proactive about information security will be key to navigating the digital landscape safely and securely.
 {style="text-align: justify;"}
 
+**Stay safe and secure!**
+
+Feel free to reach out if you have any questions or need further assistance in strengthening your information security posture. Together, we can build a safer digital world.
 
 {{% callout note %}}
 **Note:**

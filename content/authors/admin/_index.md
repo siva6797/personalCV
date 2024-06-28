@@ -33,14 +33,14 @@ interests:
   - DevSecOps
   - Cloud Security
   - Azure DevSecOps
-  - Software Composition Analysis(SCA)
-  - Static Application Security Testing (SAST)
-  - Dynamic Application Security Testing (DAST)
-  - Vulnerability Assesment(VA)
-  - Container Security(CS)
-  - Infrastructure As Code
-  - Security Automation
-  - Terraform
+#  - Software Composition Analysis(SCA)
+#  - Static Application Security Testing (SAST)
+#  - Dynamic Application Security Testing (DAST)
+#  - Vulnerability Assesment(VA)
+#  - Container Security(CS)
+#  - Infrastructure As Code
+#  - Security Automation
+#  - Terraform
   - GitOps
   - Team Leadership/Management
 

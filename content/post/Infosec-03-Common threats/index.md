@@ -46,7 +46,6 @@ tags:
 
 categories:
   - CyberSecurity
-  - InformationSecurity
   - infosec100series
   - BasicsofInformationSecurity
 ---

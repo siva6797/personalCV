@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Cyber Security Consultant
+role: Senior Security Consultant
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Claranet
-    url: https://www.claranet.com
+  - name: KPMG
+    url: https://kpmg.com/in/en/home.html
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include DevSecOps, Cloud Security, Web Application Penetration Testing, and Vulnerability Assessment & Penetration Testing.
@@ -34,7 +34,7 @@ interests:
   - Cloud Security
   - Azure DevSecOps
 #  - Software Composition Analysis(SCA)
-#  - Static Application Security Testing (SAST)
+  - Static Application Security Testing (SAST)
 #  - Dynamic Application Security Testing (DAST)
 #  - Vulnerability Assesment(VA)
 #  - Container Security(CS)

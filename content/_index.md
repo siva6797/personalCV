@@ -62,6 +62,19 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Senior Security Consultant
+          company: KPMG
+          company_url: 'https://kpmg.com/in/en/home.html'
+          company_logo: org-kpmg
+          location: Bangalore
+          date_start: '2024-09-30'
+          date_end: ''
+          description: |2-
+              Responsibilities include:
+              * Team size: 5
+              * Risk Assessments 
+              * Cloud Security
+              * DevSecOps
         - title: Cyber Security Consultant
           company: Claranet
           company_url: 'https://www.claranet.com'
@@ -71,9 +84,13 @@ sections:
           date_end: '2023-10-12'
           description: |2-
               Responsibilities include:
+              * Team size: 5
               * DevSecOps 
               * Cloud Security
               * Research and Development
+              * Job Role involves :
+                * Designed and Devloped fully automated Secured SDLC in Azure
+                * Blueteaming for Cloud Security 
         - title: Cyber Security Engineer
           company: coMakeIT part of Xebia
           company_url: 'https://www.comakeit.com'
